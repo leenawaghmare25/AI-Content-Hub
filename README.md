@@ -49,29 +49,29 @@ cd AI-Content-Hub
 
 (ii) Backend Setup:
 
-# Navigate to the backend directory
+Navigate to the backend directory
 cd backend
 
-# Create and activate a Python virtual environment
+Create and activate a Python virtual environment
 python -m venv venv
-# On Windows: venv\Scripts\activate
-# On macOS/Linux: source venv/bin/activate
+On Windows: venv\Scripts\activate
+On macOS/Linux: source venv/bin/activate
 
-# Install Python dependencies
+Install Python dependencies
 pip install -r requirements.txt
 
-# Run the Flask backend
+Run the Flask backend
 flask run
 
 (iii)Frontend Setup:
 
-# Open a new terminal and navigate to the frontend directory
+Open a new terminal and navigate to the frontend directory
 cd frontend
 
-# Install npm packages
+Install npm packages
 npm install
 
-# Start the React development server
+Start the React development server
 npm start
 
 The application will be accessible at 
@@ -83,3 +83,4 @@ Acknowledgments
 A special thank you to my sister for the inspiring project idea.
 
 The Hugging Face community for their incredible work and open-source models.
+
