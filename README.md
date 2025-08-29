@@ -1,0 +1,92 @@
+AI-Powered Accessibility Assistant for Web Developers
+📌 Project Overview
+
+The AI-Powered Accessibility Assistant for Web Developers is a full-stack web application designed to make websites more inclusive and accessible. It leverages artificial intelligence to automate and simplify accessibility improvements, enabling developers to create user-friendly web applications that meet accessibility standards (like WCAG).
+
+
+✨ Key Features
+
+🖼️ Alt-Text Generation – Automatically generates descriptive alt-text for images using AI.
+
+✍️ Text Simplification – Simplifies complex sentences to improve readability and accessibility.
+
+🎨 Color Contrast Checker – Analyzes foreground and background colors for proper contrast ratios.
+
+🔗 Descriptive Link Text Analyzer – Suggests clear and meaningful link text instead of vague labels like “Click here”.
+
+📸 Screenshots / Demo
+
+(Add your project screenshots or demo GIFs here)
+
+Example: Alt-text generation in action
+
+Example: Color contrast checker results
+
+Example: Text simplification suggestions
+
+🛠️ Tech Stack
+Frontend
+
+React.js – Component-based UI
+
+Tailwind CSS – Utility-first styling
+
+Axios – HTTP requests to backend
+
+Backend
+
+Python
+
+Flask – Lightweight web framework
+
+Hugging Face Transformers – Pre-trained AI models for NLP tasks
+
+🚀 Installation & Usage
+Prerequisites
+
+Node.js (v16+)
+
+Python (v3.8+)
+
+pip for Python dependencies
+
+Clone the Repository
+git clone https://github.com/your-username/ai-accessibility-assistant.git
+cd ai-accessibility-assistant
+
+Backend Setup
+cd backend
+python -m venv venv
+source venv/bin/activate   # (Windows: venv\Scripts\activate)
+pip install -r requirements.txt
+python app.py
+
+
+The backend will start at: http://localhost:5000/
+
+Frontend Setup
+cd frontend
+npm install
+npm start
+
+
+The frontend will start at: http://localhost:3000/
+
+📡 API Endpoints
+Endpoint	Method	Description
+/generate-alt-text	POST	Generates alt-text for an image
+/simplify-text	POST	Simplifies complex sentences
+/check-contrast	POST	Checks color contrast ratio
+/analyze-link-text	POST	Suggests descriptive link text
+📜 License
+
+This project is licensed under the MIT License – see the LICENSE
+ file for details.
+
+🙏 Acknowledgments
+
+Hugging Face – for providing powerful transformer models.
+
+Flask & React communities – for great documentation and support.
+
+WCAG Guidelines – for accessibility best practices.
