@@ -1,92 +1,86 @@
-AI-Powered Accessibility Assistant for Web Developers
-📌 Project Overview
+AI Content Hub
+An intuitive and simple AI-powered web application designed to help content creators, marketers, and students overcome writer's block and enhance their writing productivity. This platform provides a suite of tools that leverage modern AI models to generate, summarize, and rephrase text with ease.
 
-The AI-Powered Accessibility Assistant for Web Developers is a full-stack web application designed to make websites more inclusive and accessible. It leverages artificial intelligence to automate and simplify accessibility improvements, enabling developers to create user-friendly web applications that meet accessibility standards (like WCAG).
+Features:
+1. This project showcases a range of core and advanced features built into a single, cohesive application.
 
+2. Content Writer: Generates original content from scratch based on a user's prompt. Users can specify topics and keywords to guide the AI's output.
 
-✨ Key Features
+3. Idea Generator: Brainstorms creative and relevant ideas for a given topic, helping users overcome writer's block.
 
-🖼️ Alt-Text Generation – Automatically generates descriptive alt-text for images using AI.
+4. Text Summarizer: Condenses long articles or documents into a concise, easy-to-read summary with the main key points.
 
-✍️ Text Simplification – Simplifies complex sentences to improve readability and accessibility.
+5. Text Rewriter: Paraphrases and rephrases a block of text to improve clarity, originality, and tone.
 
-🎨 Color Contrast Checker – Analyzes foreground and background colors for proper contrast ratios.
+6. Tone & Style Adjustment: An advanced feature that allows users to select a specific tone (e.g., professional, casual, academic) for the generated content, demonstrating a deeper level of AI integration.
 
-🔗 Descriptive Link Text Analyzer – Suggests clear and meaningful link text instead of vague labels like “Click here”.
+7. Multi-Language Support: The platform can handle content generation in multiple languages, making it a versatile tool for a global audience.
 
-📸 Screenshots / Demo
+Tech Stack: 
+1. Frontend:
 
-(Add your project screenshots or demo GIFs here)
+React.js: The core JavaScript library for building the user interface.
 
-Example: Alt-text generation in action
+Tailwind CSS: A utility-first CSS framework for a clean and responsive design.
 
-Example: Color contrast checker results
+Axios: A promise-based HTTP client for seamless communication with the backend API.
 
-Example: Text simplification suggestions
+2. Backend:
 
-🛠️ Tech Stack
-Frontend
+Python: The programming language used to build the server-side logic.
 
-React.js – Component-based UI
+Flask: A lightweight and flexible web framework for creating the REST API.
 
-Tailwind CSS – Utility-first styling
+Hugging Face transformers: The primary library for integrating and utilizing powerful pre-trained AI models.
 
-Axios – HTTP requests to backend
+3. Deployment:
 
-Backend
+Netlify: For hosting the static React frontend.
 
-Python
+Render: For deploying the Flask backend API.
 
-Flask – Lightweight web framework
+4. Installation and Usage
+To run the project locally, follow these steps.
 
-Hugging Face Transformers – Pre-trained AI models for NLP tasks
+(i)Clone the repository:
 
-🚀 Installation & Usage
-Prerequisites
+git clone [https://github.com/leenawaghmare25/AI-Content-Hub.git](https://github.com/leenawaghmare25/AI-Content-Hub.git)
+cd AI-Content-Hub
 
-Node.js (v16+)
+(ii) Backend Setup:
 
-Python (v3.8+)
-
-pip for Python dependencies
-
-Clone the Repository
-git clone https://github.com/your-username/ai-accessibility-assistant.git
-cd ai-accessibility-assistant
-
-Backend Setup
+Navigate to the backend directory
 cd backend
+
+Create and activate a Python virtual environment
 python -m venv venv
-source venv/bin/activate   # (Windows: venv\Scripts\activate)
+On Windows: venv\Scripts\activate
+On macOS/Linux: source venv/bin/activate
+
+Install Python dependencies
 pip install -r requirements.txt
-python app.py
 
+Run the Flask backend
+flask run
 
-The backend will start at: http://localhost:5000/
+(iii)Frontend Setup:
 
-Frontend Setup
+Open a new terminal and navigate to the frontend directory
 cd frontend
+
+Install npm packages
 npm install
+
+Start the React development server
 npm start
 
+The application will be accessible at 
 
-The frontend will start at: http://localhost:3000/
+License
+This project is licensed under the MIT License.
 
-📡 API Endpoints
-Endpoint	Method	Description
-/generate-alt-text	POST	Generates alt-text for an image
-/simplify-text	POST	Simplifies complex sentences
-/check-contrast	POST	Checks color contrast ratio
-/analyze-link-text	POST	Suggests descriptive link text
-📜 License
+Acknowledgments
+A special thank you to my sister for the inspiring project idea.
 
-This project is licensed under the MIT License – see the LICENSE
- file for details.
+The Hugging Face community for their incredible work and open-source models.
 
-🙏 Acknowledgments
-
-Hugging Face – for providing powerful transformer models.
-
-Flask & React communities – for great documentation and support.
-
-WCAG Guidelines – for accessibility best practices.
